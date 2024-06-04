@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                background-color: blue;
+                width: 100px;
+                height: 100px;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: 3;
+                position: relative;
+            }
+            @keyframes example {
+                0%{background-color: brown;top:0px;left: 0px;}
+                25%{background-color: darkmagenta;top: 0px;left: 400px;}
+                50%{background-color: aquamarine;top:400px;left:400px;}
+                75%{background-color: yellowgreen;top: 400px; left:0px;}
+                100%{background-color: black;top: 0px; left:0px;}
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Animation</h1>
+        <div></div>
+    </body>
+</html>
